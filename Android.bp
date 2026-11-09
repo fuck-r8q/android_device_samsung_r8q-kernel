@@ -1,0 +1,6 @@
+cc_library_headers {
+    name: "qti_kernel_headers",
+    export_include_dirs: ["kernel-headers"],
+    vendor: true,
+    recovery_available: true,
+}
